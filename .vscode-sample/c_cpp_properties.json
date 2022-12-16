@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "AVR",
+            "includePath": [
+                "/home/mate/avr-toolchain/avr8-attiny-chips/include/",
+                "/home/mate/avr-toolchain/avr8-gnu-toolchain-linux_x86_64/avr/include/avr/**",
+                "/home/mate/avr-toolchain/avr8-gnu-toolchain-linux_x86_64/avr/include/**",
+                "${workspaceFolder}/"
+            ],
+            "defines": [
+                "__AVR_ATtiny824__",
+                "ATtiny824"
+            ],
+            "compilerPath": "/home/mate/avr-toolchain/avr8-gnu-toolchain-linux_x86_64/bin/avr-gcc",
+            "cStandard": "c99",
+            "intelliSenseMode": "gcc-x86",
+            "compilerArgs": [
+               "-mmcu=attiny824",
+               "-B /home/mate/avr-toolchain/avr8-attiny-chips/gcc/dev/attiny824/"
+            ]
+        }
+    ],
+    "version": 4
+}

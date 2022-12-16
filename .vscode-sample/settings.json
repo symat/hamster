@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "io.h": "c",
+        "iotn1626.h": "c",
+        "delay.h": "c",
+        "xmega.h": "c",
+        "kernel.h": "c"
+    }
+}

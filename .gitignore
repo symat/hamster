@@ -1,0 +1,8 @@
+.vscode/
+build/
+
+hamster_pyenv/
+
+**/.DS_Store
+
+toolchain/avr8-gnu-toolchain-linux_x86_64/
